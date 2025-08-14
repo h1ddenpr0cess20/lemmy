@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lemmy"
+version = "1.0.0"
+
+description = "Terminal-based AI chatbot powered by LM Studio"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Dustin Whyte" }]
+license = { file = "LICENSE" }
+dependencies = [
+  "requests",
+  "rich",
+  "prompt_toolkit",
+  "pyperclip",
+  "fastmcp"
+]
+
+[project.scripts]
+lemmy = "lemmy.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lemmy*"]
+
+[tool.setuptools.package-data]
+lemmy = ["tools/*.json"]

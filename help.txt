@@ -1,0 +1,16 @@
+[bold dodger_blue3]/reset[/] resets to default personality.
+[bold dodger_blue3]/clear[/] resets and clears the screen
+[bold dodger_blue3]/stock[/] sets bot to stock model settings.
+[bold dodger_blue3]/persona[/] activates personality changer, enter a new personality when prompted.
+[bold dodger_blue3]/custom[/] set a custom system prompt
+[bold dodger_blue3]/model[/] list models and change current model
+[bold dodger_blue3]/model reset[/] reset to default model
+[bold dodger_blue3]/copy[/] copy last assistant response (raw Markdown) to clipboard
+[bold dodger_blue3]/temperature[/] changes temperature
+[bold dodger_blue3]/top_p[/] changes top_p
+[bold dodger_blue3]/repeat_penalty[/] changes repeat_penalty
+[bold dodger_blue3]/quit[/] or [bold dodger_blue3]/exit[/] exits the program
+
+[bold dodger_blue3]/tools[/] toggle tool calling (built-in and MCP)
+
+Use Esc+Enter to input multiple lines
