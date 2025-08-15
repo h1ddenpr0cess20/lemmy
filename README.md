@@ -1,7 +1,5 @@
 # Lemmy
 
-![License](https://img.shields.io/github/license/h1ddenpr0cess20/lemmy)
-
 A terminal-based AI chatbot with infinite personalities, powered by LM Studio. Create, customize, and chat with AI personalities directly from your terminal. Optional tool calling via MCP (Model Context Protocol) servers or a bundled tool schema.
 
 Use Ollama instead?  Try [Ollamarama](https://github.com/h1ddenpr0cess20/ollamarama).
