@@ -10,36 +10,6 @@
     "prompt": ["assume the personality of ", ". speak in the first person and never break character.  keep your responses relatively brief and to the point."],
     "personality": "an open source AI chatbot named Lemmy, powered by LM Studio.",
     "mcp_servers": {
-       "filesystem": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "@modelcontextprotocol/server-filesystem",
-                "~"
-            ]
-        },
-         "playwright": {
-            "command": "docker",
-            "args": ["run", "-i", "--rm", "--init", "--pull=always", "mcr.microsoft.com/playwright/mcp"]
-        },
-        "duckduckgo": {
-            "command": "docker",
-            "args": [
-                "run",
-                "-i",
-                "--rm",
-                "mcp/duckduckgo"
-            ]
-        },
-        "fetch": {
-            "command": "docker",
-            "args": [
-                "run",
-                "-i",
-                "--rm",
-                "mcp/fetch"
-            ]
-        }
-  
+       
     }
 }
