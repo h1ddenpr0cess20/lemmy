@@ -4,9 +4,7 @@
 
 A terminal-based AI chatbot with infinite personalities, powered by LM Studio. Create, customize, and chat with AI personalities directly from your terminal. Optional tool calling via MCP (Model Context Protocol) servers or a bundled tool schema.
 
-Also available for:
-- [IRC](https://github.com/h1ddenpr0cess20/lemmy-irc)
-- [Matrix](https://github.com/h1ddenpr0cess20/lemmy-matrix)
+Use Ollama instead?  Try [Ollamarama](https://github.com/h1ddenpr0cess20/ollamarama).
 
 ## Table of Contents
 
