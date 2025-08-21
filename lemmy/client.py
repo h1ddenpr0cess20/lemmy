@@ -8,7 +8,7 @@ from typing import Any, Dict, Iterator, List, Optional
 class OpenAIClient:
     def __init__(self, api_base: str) -> None:
         self.api_base = api_base.rstrip("/")
-        self.api_url = self.api_base + "/chat/completions"
+        self.api_url = self.api_base + "/v1/chat/completions"
         self.headers = {
             "Content-Type": "application/json",
             
