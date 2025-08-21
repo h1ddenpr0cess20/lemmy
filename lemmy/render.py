@@ -5,7 +5,7 @@ from rich.markdown import Markdown
 
 
 def get_console() -> Console:
-    return Console(width=120, highlight=False)
+    return Console(width=80, highlight=False)
 
 
 def print_markdown(console: Console, text: str) -> None:
