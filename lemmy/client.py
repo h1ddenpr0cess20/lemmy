@@ -109,7 +109,7 @@ class OpenAIClient:
         return {"message": msg}
 
     def get_models(self, timeout: int = 30) -> Dict[str, str]:
-        models_url = self.api_base + "/models"
+        models_url = self.api_base + "/v1/models"
         try:
             response = requests.get(models_url, headers=self.headers, timeout=timeout)
             response.encoding = "utf-8"
